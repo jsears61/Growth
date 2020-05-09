@@ -20,12 +20,14 @@ h2 {
   font-size:2.5rem;
   font-weight: normal;
   padding-bottom: 0px;
+  margin:0,auto,auto,auto;
     }
 
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   font-size:2rem;
+  margin:auto,auto,auto,auto;
     }
 p {
     line-height: 2;
@@ -53,22 +55,28 @@ a {
 .top-container {
   background-color: #E4F9F5;
   position: relative;
-  padding-top:50px;
+  padding-top:10px;
+  padding-bottom: 10px;
   line-height: 2rem;
   }
 
 .middle-container {
-  margin: 100px 0;
+  margin: 50px 0;
   }
 
 .bottom-container {
   background-color: #66BFBF;
-  padding: 50px 0 20px;
+  margin: 100px auto 0 auto;
   }
 
+.title-text2{
+  position: absolute;
+}
+
 .intro {
-  width: 30%;
-  margin: auto;
+  width: 60%;
+  margin: auto auto auto auto;
+  padding-bottom: 50PX;
 }
 
 .contact-message {
@@ -77,12 +85,13 @@ a {
 }
 
 .skills {
-  margin:auto auto 0 auto;
+  margin: -50 auto 0 auto;
+
 }
 
 .skill-row {
     width:75%;
-    margin:200px auto 200px auto;
+    margin:50px auto 200px auto;
     text-align: left;
   }
 
@@ -93,27 +102,67 @@ a {
 
 .top-cloud {
   position:absolute;
-  right:300px;
-  top:40px;
+  right:200px;
+  top:420px;
+  }
+
+.title-text1 {
+  position:relative;
+  margin-top: -20px;
+  padding-bottom: 50px;
   }
 
 .bottom-cloud {
   position:absolute;
-  left: :250px;
-  bottom:300px;
+  left:200px;
+  right:500px;
+  bottom:450px;
+  }
+
+.plant{
+  margin-top: -180px;
+  padding-bottom:100px;
   }
 
 .entrepreneurship-img {
   width:25%;
   float:left;
-  margin:auto 30px auto auto;
+  margin:auto 30px 50px auto;
 }
 
 .innovation-img {
   width:25%;
   float:right;
-  margin: auto auto auto 30px;
+  margin: -50px auto auto 30px;
 }
+
+.activity1{
+  background-color: #ffcbcb;
+  height:100px;
+  width:200px;
+  padding: 50px;
+  display:inline-block;
+  margin: auto 50px 0;
+  }
+
+.activity2{
+  background-color: #E4F9F5;
+  height:100px;
+  width:200px;
+  padding: 50px;
+  display:inline-block;
+  margin: auto 50px 0;
+  }
+
+.activity3{
+  background-color: #BB7171;
+  height:100px;
+  width:200px;
+  padding: 50px;
+  display:inline-block;
+  margin: auto 50px 0;
+}
+
 
 .btn {
   background: #11cdd4;
@@ -145,5 +194,5 @@ a {
 .copyright {
   color:#EAF6F6;
   font-size: 0.75rem;
-  padding:20px 0;
+  padding:0px 0;
 }
