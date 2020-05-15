@@ -10,7 +10,7 @@ h1 {
   color: #66BFBF;
   font-size: 5.625rem;
   line-height: 1.5;
-  margin: 50px, auto, 0, auto;
+  margin: 25px, auto, 0, auto;
   font-family: 'Sacramento', cursive;
   }
 
@@ -31,6 +31,7 @@ h3 {
     }
 p {
     line-height: 2;
+    margin:20px 0 0;
   }
 
 hr {
@@ -43,7 +44,7 @@ hr {
 a {
   color:#11999E;
   font-family: 'Montserrat', sans-serif;
-  margin:10px 20px;
+  margin:0px 20px 0;
   text-decoration: none;
   }
 
@@ -56,27 +57,30 @@ a {
   background-color: #E4F9F5;
   position: relative;
   padding-top:10px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   line-height: 2rem;
   }
 
 .middle-container {
-  margin: 50px 0;
+  margin: 20px 0 0;
   }
 
 .bottom-container {
   background-color: #66BFBF;
-  margin: 100px auto 0 auto;
+  margin: 60px auto 0 auto;
   }
 
 .title-text2{
   position: absolute;
 }
+.intro1 {
+  margin-block-end:20px;
+}
 
-.intro {
+.intro2 {
   width: 60%;
-  margin: auto auto auto auto;
-  padding-bottom: 50PX;
+  margin: 0 auto 0 auto;
+  padding-bottom: 0PX;
 }
 
 .contact-message {
@@ -116,7 +120,7 @@ a {
   position:absolute;
   left:200px;
   right:500px;
-  bottom:450px;
+  bottom:350px;
   }
 
 .plant{
@@ -127,40 +131,40 @@ a {
 .entrepreneurship-img {
   width:25%;
   float:left;
-  margin:auto 30px 50px auto;
+  margin:auto 30px 0px auto;
 }
 
 .innovation-img {
   width:25%;
   float:right;
-  margin: -50px auto auto 30px;
+  margin: -100px auto -80px 30px;
 }
 
 .activity1{
   background-color: #ffcbcb;
   height:100px;
   width:200px;
-  padding: 50px;
+  padding: 0 25px 50px;
   display:inline-block;
-  margin: auto 50px 0;
+  margin: auto 50px 50px;
   }
 
 .activity2{
   background-color: #E4F9F5;
   height:100px;
   width:200px;
-  padding: 50px;
+  padding: 0 25px 50px;
   display:inline-block;
-  margin: auto 50px 0;
+  margin: auto 50px 50px;
   }
 
 .activity3{
-  background-color: #BB7171;
+  background-color: #ffcbcb;
   height:100px;
   width:200px;
-  padding: 50px;
+  padding: 0 25px 50px;
   display:inline-block;
-  margin: auto 50px 0;
+  margin: auto 50px 50px;
 }
 
 
